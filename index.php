@@ -84,6 +84,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
        <p class ="error">Cette Fonction est deprecier en php 7.2.0, Je feurai un exemple avec Le module OpenSSl qui est destiner a remplacer mcrypt</p>
 
        <p><a href="https://secure.php.net/manual/en/migration71.deprecated.php">Lien d'information</a></p>
+
+
+       <p><a href="https://secure.php.net/manual/fr/book.openssl.php">Lien vers OpenSSL</a></p>
+
+
  
     </body>
 </html>
