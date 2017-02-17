@@ -78,6 +78,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
        <p>Il faut utiliser un type Blob afin de proceder à l'enregistrement.
        </br>Pour le dechiffrement a partir d'une bdd il faudra utiliser la fonction rtrim(), car 4 caracteres sont ajouté par le type blob et cela peut nuire à l'utilisation.
        </br>exemple : $dechiffrement =  rtrim($dechiffrement);</p>
+
+       <p>Pour chiffrer des dossiers images etc etc, utiliser  <q> l'attribut : accept="file_extension|audio/*|video/*|image/*|media_type"</q> dans l'input, et type Blob pour stocker dans la bdd. </p>
+
+       <p class ="error">Cette Fonction est deprecier en php 7.2.0, Je feurai un exemple avec Le module OpenSSl qui est destiner a remplacer mcrypt</p>
+
+       <p><a href="https://secure.php.net/manual/en/migration71.deprecated.php">Lien d'information</a></p>
  
     </body>
 </html>
